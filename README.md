@@ -58,7 +58,7 @@ Bij het ontwikkelen van de website houd ik rekening met:
 ### Begin- en einddatum
 
 - Begindatum: 17.09.2026
-- Einddatum: 30.09.2026
+- Einddatum: 24.09.2026
 
 - ## Kerntaken / Werkprocessen
 
