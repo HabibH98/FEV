@@ -1,11 +1,12 @@
 import './App.css'
+import Navbar from './components/Navbar.jsx'
+import Home from './pages/Home.jsx'
 
 function App() {
   return (
     <div>
-      <h1>Mijn Restaurant</h1>
-      <p>Welkom bij onze restaurantwebsite.</p>
-      <button>Reserveer een tafel</button>
+      <Navbar />
+      <Home />
     </div>
   )
 }

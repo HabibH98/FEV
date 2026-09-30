@@ -2,7 +2,7 @@
 
 ## Wat ga ik doen?
 
-Volgende week ga ik verder met het bouwen van mijn restaurantwebsite met React.
+deze sprint ga ik verder met het bouwen van mijn restaurantwebsite met React.
 
 Ik ga mij vooral richten op de homepage en het opdelen van de website in
 verschillende React-componenten.
@@ -32,3 +32,7 @@ Tijdens deze taken wil ik beter begrijpen:
 
 Aan het einde van volgende week wil ik een werkende basis van de homepage
 hebben met een navigatiebalk en een eerste ontwerp.
+
+# Werkprocessen
+
+B1-K1-W3 Ja
