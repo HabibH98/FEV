@@ -1,4 +1,4 @@
-# sprit 3
+# sprint 3
 
 ## Wat ga ik doen?
 
