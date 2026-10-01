@@ -41,3 +41,31 @@ nav a:hover {
     gap: 10px;
   }
 }
+
+.hero-section {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-section h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.reserve-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #222;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.reserve-button:hover {
+  background-color: #444;
+}

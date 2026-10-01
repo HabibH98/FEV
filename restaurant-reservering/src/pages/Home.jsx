@@ -1,14 +1,19 @@
+import { Link } from 'react-router-dom'
+
 function Home() {
   return (
     <main>
-      <section>
+      <section className="hero-section">
         <h1>Welkom bij Mijn Restaurant</h1>
 
         <p>
-          Geniet van lekker eten en reserveer eenvoudig online een tafel.
+          Geniet van heerlijk eten in een gezellige sfeer.
+          Reserveer eenvoudig online een tafel.
         </p>
 
-        <button>Reserveer een tafel</button>
+        <Link to="/reserveren" className="reserve-button">
+          Reserveer een tafel
+        </Link>
       </section>
     </main>
   )
