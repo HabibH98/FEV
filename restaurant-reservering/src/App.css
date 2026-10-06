@@ -69,3 +69,25 @@ nav a:hover {
 .reserve-button:hover {
   background-color: #444;
 }
+
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px;
+}
+
+.menu-item {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 250px;
+}
+
+.menu-item h2 {
+  margin-top: 0;
+}
+
+.menu-item p {
+  line-height: 1.5;
+}

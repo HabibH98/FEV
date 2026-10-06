@@ -4,18 +4,21 @@ const gerechten = [
     naam: 'Margherita Pizza',
     beschrijving: 'Pizza met tomatensaus, mozzarella en basilicum.',
     prijs: 12.50,
+     categorie: 'Pizza',
   },
   {
     id: 2,
     naam: 'Pasta Carbonara',
     beschrijving: 'Pasta met romige saus, ei en Parmezaanse kaas.',
     prijs: 14.50,
+      categorie: 'Pasta',
   },
   {
     id: 3,
     naam: 'Caesar Salad',
     beschrijving: 'Salade met kip, sla, Parmezaanse kaas en dressing.',
     prijs: 11.50,
+    categorie: 'salade',
   },
 ]
 
