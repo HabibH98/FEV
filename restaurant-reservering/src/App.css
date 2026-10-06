@@ -91,3 +91,92 @@ nav a:hover {
 .menu-item p {
   line-height: 1.5;
 }
+.menu-filters {
+  display: flex;
+  gap: 10px;
+  padding: 0 30px;
+  margin-top: 20px;
+}
+
+.menu-filters button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #222;
+  color: white;
+  cursor: pointer;
+}
+
+.menu-filters button:hover {
+  background-color: #444;
+}
+.reservation-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.reservation-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.reservation-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.reservation-form input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.reservation-form button {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #222;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.reservation-form button:hover {
+  background-color: #444;
+}
+
+.confirmation {
+  margin-top: 30px;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+}
+.about-page,
+.contact-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.about-page h1,
+.contact-page h1 {
+  margin-bottom: 20px;
+}
+
+.about-page p,
+.contact-page p {
+  line-height: 1.6;
+}
+
+.contact-info {
+  margin-top: 30px;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
