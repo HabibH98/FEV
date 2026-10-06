@@ -1,3 +1,4 @@
+import { useState } from 'react'
 const gerechten = [
   {
     id: 1,
@@ -23,13 +24,23 @@ const gerechten = [
 ]
 
 function Menu() {
+  const [categorie, setCategorie] = useState('Alles')
+  const gefilterdeGerechten = gerechten.filter((gerecht) => {
+  return categorie === 'Alles' || gerecht.categorie === categorie
+})
   return (
     <main>
       <h1>Menukaart</h1>
       <p>Bekijk hier onze gerechten.</p> 
+       <div className="menu-filters">
+  <button onClick={() => setCategorie('Alles')}>Alles</button> 
+  <button onClick={() => setCategorie('Pizza')}>Pizza</button>
+  <button onClick={() => setCategorie('Pasta')}>Pasta</button>
+  <button onClick={() => setCategorie('Salade')}>Salade</button>
+</div>
 
       <div className="menu-list">
-        {gerechten.map((gerecht) => (
+        {gefilterdeGerechten.map((gerecht) => (
           <div className="menu-item" key={gerecht.id}>
             <h2>{gerecht.naam}</h2>
             <p>{gerecht.categorie}</p>
