@@ -32,6 +32,7 @@ function Menu() {
         {gerechten.map((gerecht) => (
           <div className="menu-item" key={gerecht.id}>
             <h2>{gerecht.naam}</h2>
+            <p>{gerecht.categorie}</p>
             <p>{gerecht.beschrijving}</p>
             <p>€ {gerecht.prijs.toFixed(2)}</p>
           </div>
