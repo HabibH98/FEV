@@ -21,7 +21,7 @@ function App() {
         <Route path="/over-ons" element={<About />} />
         <Route path="/reserveren" element={<Reservation />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/nieuws" element={<News />} />
+        <Route path="/news" element={<News />} /> 
       </Routes>
 
       <Footer />
