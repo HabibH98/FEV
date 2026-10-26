@@ -6,6 +6,7 @@ import Menu from './pages/Menu.jsx'
 import About from './pages/About.jsx'
 import Reservation from './pages/Reservation.jsx'
 import Contact from './pages/Contact.jsx'
+import News from './pages/News.jsx'
 
 import { Routes, Route } from 'react-router-dom'
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/over-ons" element={<About />} />
         <Route path="/reserveren" element={<Reservation />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/nieuws" element={<News />} />
       </Routes>
 
       <Footer />

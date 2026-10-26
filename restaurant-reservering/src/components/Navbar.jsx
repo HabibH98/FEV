@@ -11,6 +11,7 @@ function Navbar() {
         <li><Link to="/over-ons">Over ons</Link></li>
         <li><Link to="/reserveren">Reserveren</Link></li>
         <li><Link to="/contact">Contact</Link></li>
+        <li><Link to="/nieuws">Nieuws</Link></li>
       </ul>
     </nav>
   )
